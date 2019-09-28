@@ -12,6 +12,14 @@ import _ from 'lodash';
 import PropTypes from 'prop-types';
 import SnackComponent from './SnackComponent';
 
+import {
+  huskyCIAuthorRoute,
+  huskyCIAnalysisRoute,
+  huskyCILanguageRoute,
+  huskyCIContainerRoute,
+  huskyCIRepositoryRoute
+} from "./config/routes"
+
 const styles = {
   root: {
     width: 100,
@@ -19,12 +27,6 @@ const styles = {
   },
 };
 
-const huskyCIAPIAddress = process.env.REACT_APP_HUSKYCI_FE_API_ADDRESS;
-const huskyCIAuthorRoute = `${huskyCIAPIAddress}/stats/author`;
-const huskyCIAnalysisRoute = `${huskyCIAPIAddress}/stats/analysis`;
-const huskyCILanguageRoute = `${huskyCIAPIAddress}/stats/language`;
-const huskyCIContainerRoute = `${huskyCIAPIAddress}/stats/container`;
-const huskyCIRepositoryRoute = `${huskyCIAPIAddress}/stats/repository`;
 
 const boxMargin = 8;
 const boxSizeWidth = 400;
