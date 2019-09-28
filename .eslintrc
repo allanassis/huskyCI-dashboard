@@ -5,13 +5,13 @@
     "browser": true,
     "node": true,
     "es6": true,
-    "jest": true,
+    "jest": true
   },
   "parserOptions": {
-      ecmaFeatures: {
-          jsx: true,
+      "ecmaFeatures": {
+          "jsx": true
       },
-      sourceType: "module"
+      "sourceType": "module"
   },
   "settings": {
     "react": {
