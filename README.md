@@ -30,9 +30,6 @@ After cloning this repository, simply run these commands inside huskyCI-dashboar
 
 ```sh
 make install
-echo 'export REACT_APP_HUSKYCI_FE_API_ADDRESS="http://127.0.0.1:8888"' > .env
-echo 'SKIP_PREFLIGHT_CHECK=true' >> .env
-source .env
 ```
 
 ## Running
